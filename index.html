@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PortofolioKU</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">My Portofolio</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#myproject" class="nav-link">My Project</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <!-- Hero Section / Home -->
+  <section class="hero-section" id="home">
+    <div class="section-content">
+      <div class="hero-details">
+        <h2 class="title">Hello, I'm Esra Nelli Sitorus</h2>
+        <h3 class="subtitle">I'm a
+          <span style="--i:3;" data-text="Frontend Developer">Frontend Developer</span>
+          <span style="--i:2;" data-text="Data Analysis">Data Analysis</span>
+          <span style="--i:1;" data-text="Content Creator">Content Creator</span>
+        </h3>
+        <p class="description">Interested in web, data, design and always eager to learn more.</p>
+        <div class="button">
+          <a href="resume.pdf" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="https://github.com/Esra-Nelli-Sitorus"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/esra-nelli-sitorus-413b8128a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/youronlyssra?igsh=ZHg3OG9wN2p0aGFx"><i class='bx bxl-instagram'></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="foto.png" alt="Myself" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="myproject" class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-subtitle">Here are a few examples of my recent projects, demonstrating my capacity for creative problem-solving and effective solutions.</p>
+    <div class="projects-container">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="project1.png" alt="Traffic Violation Monitoring System" />
+        <div class="project-content">
+          <h3 class="project-title">Traffic Violation Monitoring System</h3>
+          <p class="project-description">A streamlined web-based system to manage traffic violations, 
+            allowing drivers to submit reports, pay fines, and enabling admins to monitor and analyze violation data efficiently.</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MYSQL</span>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="project 2.jpg" alt="Data Visualization" />
+        <div class="project-content">
+          <h3 class="project-title">Student Learning Interest Analysis</h3>
+          <p class="project-description">Analyze students’ learning interest in physics using regression to discover patterns in performance and engagement.</p>
+          <div class="tags">
+            <span class="tag">SPSS</span>
+            <span class="tag">Excel</span>
+            <span class="tag">MS.WORD</span>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="project 3.jpg" alt="SmartBus" />
+        <div class="project-content">
+          <h3 class="project-title">SmartBus: Terminal Ticket Booking System</h3>
+          <p class="project-description">A system to manage bus ticket reservations at terminals with real-time schedules, seat selection, and admin control.
+             Includes full system analysis and database design</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">JS</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+      </div>
+  <!-- Project 4 -->
+  <div class="project-card">
+        <img src="project 4.jpg" alt="Classification ECG" />
+        <div class="project-content">
+          <h3 class="project-title">Sleep Stage Classification from ECG</h3>
+          <p class="project-description">Classify sleep stages from ECG data using deep learning techniques such as CNN and HRV analysis.</p>
+          <div class="tags">
+            <span class="tag">PYTHON</span>
+            <span class="tag">EXEL</span>
+            <span class="tag">CNN</span>
+            <span class="tag">Spicy</span>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- About Me -->
+  <section id="about" class="container">
+    <div class="content">
+      <h1>About Me</h1>
+      <p>
+       I’m an Information Systems student at Universitas Prima Indonesia. My interest in technology started when I began studying how systems work and how they can be built to help people.  
+      <p>I enjoy learning new tools and practicing my skills by applying them to small projects. My focus is to keep learning step by step and develop useful systems or insights through what I’ve learned.</p>
+      </p>
+      <div class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+          <div class="skill-item">HTML/CSS</div>
+          <div class="skill-item">PHP</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">Python</div>
+        </div>
+      </div>
+    </div>
+    <div class="image-wrapper">
+      <div class="about-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="fotoabout.jpg" alt="Myself" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="contact-wrapper">
+    <h2>Contact Me</h2>
+    <p>Please fill out the form below to send a message.</p>
+    <div class="form-embed">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfg6QxSBHoMEbJHKD9lrTeea07u0Wae8Gey0PXK8JGqZ1T7QQ/viewform?embedded=true"
+        width="100%" height="954" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <h2 class="footer-logo">Portofolio</h2>
+    <div class="footer-socials">
+      <a href="https://github.com/Esra-Nelli-Sitorus" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/esra-nelli-sitorus-413b8128a" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/youronlyssra" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <hr />
+    <p class="footer-bottom">© 2025 My Portofolio. All rights reserved.</p>
+  </div>
+  </footer>
+</body>
+</html>
