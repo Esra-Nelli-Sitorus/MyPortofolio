@@ -14,21 +14,6 @@
     }
   </style>
 </head>
-  <script>
-
-const menuOpen = document.querySelector("#menu-open-button");
-const menuClose = document.querySelector("#menu-close-button");
-const navMenu = document.querySelector(".nav-menu");
-
-menuOpen.onclick = () => {
-navMenu.classList.add("active");
-}
-
-menuClose.onclick = () => {
-navMenu.classList.remove("active");
-}
-
-</script>
 <body>
 
   <!-- Header / Navbar -->
@@ -191,8 +176,24 @@ navMenu.classList.remove("active");
     <p class="footer-bottom">© 2025 My Portofolio. All rights reserved.</p>
   </div>
   </footer>
+        <script>
+    
+    const menuOpen = document.querySelector("#menu-open-button");
+    const menuClose = document.querySelector("#menu-close-button");
+    const navMenu = document.querySelector(".nav-menu");
+    
+    menuOpen.onclick = () => {
+    navMenu.classList.add("active");
+    }
+    
+    menuClose.onclick = () => {
+    navMenu.classList.remove("active");
+    }
+    
+    </script>
 </body>
 </html>
+
 
 
 
